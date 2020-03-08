@@ -1,0 +1,192 @@
+/***** BASE STYLES *****/
+
+body {
+  font-family: "Montserrat";Helvetica, Arial, sans-serif;
+}
+
+@font-face{
+	font-family: 'Wisdom Script';
+	src: url('../fonts/wisdom-script.otf') format('opentype');
+}
+
+h1,
+h2,
+h3,
+h4 {
+	color: black;
+	text-transform: uppercase;
+	font-weight: 700;
+}
+
+h1 {
+  font-size: 30px;
+}
+
+h2 {
+  font-size: 24px;
+}
+
+h3 {
+  font-size: 18px;
+}
+
+h4 {
+  font-size: 12px;
+}
+
+p {
+	font-size: 14px;
+	line-height: 21px;
+    padding: 0 30px;
+}
+/***** GRID *****/
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+/***** HEADER *****/
+
+
+
+header {
+    height: 110px;
+    border-bottom: 3px solid #77a466;
+  	margin: 0 auto;
+}
+
+header h1 {
+    padding: 38px 0;
+    float: left;
+    margin: 0;
+    font-size: 30px;
+
+}
+
+header h1 span{
+  color: #77a466;
+}
+
+header nav {
+	float: right;
+	padding: 46px 0;
+}
+header nav ul {
+	margin: 0;
+	padding: 0;
+}
+
+header nav ul li {
+  padding: 0 10px;
+  display: inline;
+  color: #77a466;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 14px;
+
+}
+
+header nav ul li a{
+  text-decoration: none;
+  color:#77a466;
+}
+
+/***** TOP *****/
+
+.top,
+.bottom {
+  margin: 0,auto;
+  clear: both;
+}
+
+.main-image  {
+    float:left;
+    height: auto;
+
+
+}
+
+.main-image img {
+  border-bottom: 3px solid #77a466;
+}
+
+.main-title {
+    float: left;
+    height: auto;
+}
+
+.main-title h3 {
+  color: #77a466;
+  padding: 0;
+
+}
+
+.main-title p {
+  font-size: 16px;
+  text-align: left;
+  padding: 0;
+  line-height: 25px;
+
+}
+
+.specials,
+.reviews,
+.contact {
+    float:left;
+    width: 399px;
+    border-top: 1px solid #eee;
+    height: auto;
+}
+.specials h3,
+.reviews h3,
+.contact h3 {
+  font-size: 12px;
+  font-weight: bold;
+}
+.specials h3 {
+  padding: 10px 0;
+}
+.reviews {
+  border-right: 1px solid #eee;
+  border-left: 1px solid #eee;
+}
+.reviews h3,
+.contact h3 {
+	padding: 10px 30px;
+}
+.menu {
+  list-style: none;
+  padding: 0;
+
+}
+.menu li {
+  color: #77a466;
+  padding: 10px 0;
+}
+.reviews p {
+  font-size: 16px;
+  line-height: 21px;
+}
+.contact p {
+  font-size: 16px;
+  line-height: 24px;
+}
+
+
+
+
+footer {
+    border-top: 3px solid #eee;
+    clear: both;
+    text-align: center;
+    margin: 0 auto;
+    height: 50px;
+}
+
+footer span {
+  font-family: 'Wisdom Script', cursive;
+  color: #77a466;
+  text-transform: lowercase;
+  font-size: 14px;
+}
